@@ -13,7 +13,7 @@ In this challenge, I used my knowledge of Python and unsupervised learning to pr
   - Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
 
   - Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
-    - The first five rows of the scaled DataFrame should appear as follows:
+    - The first five rows of the scaled DataFrame should appear.
 
 #### Find the Best Value for k Using the Original Scaled DataFrame
 Use the elbow method to find the best value for k using the following steps:
@@ -72,3 +72,6 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
     - Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
   - Answer the following question:
     - What is the impact of using fewer features to cluster the data using K-Means?
+   
+### Notes
+Debugged successfully with the help of colleagues and stackoverflow.  This data was generated and does not reflect real values in investing.
