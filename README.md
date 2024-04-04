@@ -74,4 +74,4 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
     - What is the impact of using fewer features to cluster the data using K-Means?
    
 ### Notes
-Debugged successfully with the help of colleagues and stackoverflow.  This data was generated and does not reflect real values in investing.
+Debugged successfully with the help of colleagues and stackoverflow.  This data was generated for educational use and does not reflect real values in investing.
