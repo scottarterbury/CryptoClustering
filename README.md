@@ -1,18 +1,6 @@
 # CryptoClustering
-Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
-In this challenge, you’ll use your knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
-
-### Before You Begin
-1.  Create a new repository for this project called CryptoClustering. Do not add this homework to an existing repository.
-
-2.  Clone the new repository to your computer.
-
-3.  Push your changes to GitHub.
-
-#### Files
-Download the following files to help you get started:
-Module 19 Challenge filesLinks to an external site.
+In this challenge, I used my knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
 #### Instructions
   1.  Rename the Crypto_Clustering_starter_code.ipynb file as Crypto_Clustering.ipynb.
@@ -25,7 +13,7 @@ Module 19 Challenge filesLinks to an external site.
   - Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
 
   - Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
-    - The first five rows of the scaled DataFrame should appear as follows:
+    - The first five rows of the scaled DataFrame should appear.
 
 #### Find the Best Value for k Using the Original Scaled DataFrame
 Use the elbow method to find the best value for k using the following steps:
@@ -84,3 +72,6 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
     - Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
   - Answer the following question:
     - What is the impact of using fewer features to cluster the data using K-Means?
+   
+### Notes
+Debugged successfully with the help of colleagues and stackoverflow.  This data was generated and does not reflect real values in investing.
